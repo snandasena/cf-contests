@@ -4,6 +4,10 @@ project(codeforces)
 set(CMAKE_CXX_STANDARD 17)
 
 
+# COMMON
+#add_executable(codeforces common/b_subsequence_hate.cpp)
+#add_executable(codeforces common/a_odd_selection.cpp)
+
 # 674
 #add_executable(codeforces cf647/b.cpp)
 
@@ -69,9 +73,23 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces ed91/e.cpp)
 
 # 649
-add_executable(codeforces cf649/a.cpp)
+#add_executable(codeforces cf649/a.cpp)
 #add_executable(codeforces cf649/b.cpp)
 
+
+# 656
+#add_executable(codeforces cf656/a.cpp)
+# add_executable(codeforces cf656/b.cpp)
+#add_executable(codeforces cf656/c.cpp)
+#add_executable(codeforces cf656/d.cpp)
+#add_executable(codeforces cf656/e.cpp)
+add_executable(codeforces cf656/g.cpp)
+
+# 657
+#add_executable(codeforces cf657/a.cpp)
+#add_executable(codeforces cf657/b.cpp)
+#add_executable(codeforces cf657/c.cpp)
+#add_executable(codeforces cf657/d.cpp)
 
 
 #add_executable(main main.cpp)
