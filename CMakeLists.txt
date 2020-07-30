@@ -21,6 +21,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 # EDU 89
 #add_executable(codeforces ed89/c.cpp)
+#add_executable(codeforces ed89/b.cpp)
 
 # EDU 90
 #add_executable(codeforces ed90/a.cpp)
@@ -93,10 +94,21 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces cf657/d.cpp)
 
 # 658
-add_executable(codeforces cf658/a.cpp)
+#add_executable(codeforces cf658/a.cpp)
+#add_executable(codeforces cf658/a1.cpp)
 #add_executable(codeforces cf658/b.cpp)
 #add_executable(codeforces cf658/c.cpp)
 #add_executable(codeforces cf658/d.cpp)
 
+# 659
+#add_executable(codeforces cf659/a.cpp)
 
-#add_executable(main main.cpp)
+
+# EDU 92
+add_executable(codeforces ed92/a.cpp)
+#add_executable(codeforces ed92/b.cpp)
+#add_executable(codeforces ed92/c.cpp)
+#add_executable(codeforces ed92/d.cpp)
+#add_executable(codeforces ed92/e.cpp)
+
+#add_executable(main m   ain.cpp)
