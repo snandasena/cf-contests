@@ -113,8 +113,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 # 660
 #add_executable(codeforces cf660/a.cpp)
-add_executable(codeforces cf660/b.cpp)
-#add_executable(codeforces cf660/c.cpp)
+#add_executable(codeforces cf660/b.cpp)
+add_executable(codeforces cf660/c.cpp)
 #add_executable(codeforces cf660/d.cpp)
 
-#add_executable(main m   ain.cpp)
+#add_executable(main main.cpp)
