@@ -2,31 +2,52 @@
 
 using namespace std;
 
-// Solution 1 from editorial
-// Fix the bits one-by-one in forward order
-// at most 3 operations per bit, and O(n) time complexity.
+const int N = 1e5 + 7;
 
-int t, n;
-string a, b;
+vector < int > gr[N];
+
+bool access = true;
+
+int p[N], h[N], a[N], g[N];
+
+void dfs(int v, int ancestor = -1) {
+    a[v] = p[v];
+    int sum_g = 0;
+    for (int to : gr[v]) {
+        if (to == ancestor) continue;
+        dfs(to, v);
+        sum_g += g[to];
+        a[v] += a[to];
+    }
+    if ((a[v] + h[v]) % 2 == 0) {} // first
+    else access = false;
+    g[v] = (a[v] + h[v]) / 2;
+    if (g[v] >= 0 && g[v] <= a[v]) {} // second
+    else access = false;
+    if (sum_g <= g[v]) {} // third
+    else access = false;
+}
 
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(0);
-    cin >> t;
-    while(t--) {
-        cin >> n >> a >> b;
-        vector<int> ops;
-        for(int i = 0; i < n; i++) {
-            if(a[i] != b[i]) {
-                if(i > 0) ops.push_back(i + 1);
-                ops.push_back(1);
-                if(i > 0) ops.push_back(i + 1);
-            }
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr); cout.tie(nullptr);
+
+    int q;
+    cin >> q;
+
+    while (q--) {
+        int n, m; cin >> n >> m;
+        for (int i = 0; i < n; ++i) cin >> p[i];
+        for (int i = 0; i < n; ++i) cin >> h[i];
+        for (int i = 0; i < n - 1; ++i) {
+            int a, b; cin >> a >> b;
+            --a, --b;
+            gr[a].push_back(b);
+            gr[b].push_back(a);
         }
-        cout << ops.size() << ' ';
-        for(int x : ops) {
-            cout << x << ' ';
-        }
-        cout << '\n';
+        dfs(0);
+        cout << (access ? "YES" : "NO") << endl;
+        access = true;
+        for (int i = 0; i < n; ++i) gr[i].clear();
     }
 }
