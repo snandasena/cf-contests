@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
+vector<int> a;
 
 int main() {
     ios::sync_with_stdio(false);
@@ -11,18 +12,28 @@ int main() {
     cin >> t;
     while (t--) {
         cin >> n >> k >> z;
-        vector<int> v(n);
-        for (int &i: v) cin >> i;
-        int s = v[0];
-        if (z == 0) {
-            for (int i = 1; i <= k; i++) {
-                if (k < n)s += v[i];
-            }
-            cout << s << "\n";
-        } else {
+        a = vector<int>(n);
+        for (int &i: a)cin >> i;
 
+        int s = 0, mx = 0, ans = 0;
+
+        for (int i = 0; i <= z; ++i) {
+            int pos = k - 2 * i;
+            if (pos < 0) continue;
+
+            mx = 0, s = 0;
+            for (int j = 0; j <= pos; ++j) {
+                if (j < n - i) {
+                    mx = max(mx, a[j] + a[j + 1]);
+                }
+
+                s += a[j];
+            }
+
+            ans = max(ans, s + mx * i);
         }
 
+        cout << ans << "\n";
 
     }
 
