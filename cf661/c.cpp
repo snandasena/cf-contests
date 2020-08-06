@@ -21,31 +21,26 @@ int main() {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int t, n;
+    int t, n, x;
+
     cin >> t;
     while (t--) {
         cin >> n;
-        vector<int> v(n);
-        for (int &i: v) cin >> i;
-
-        sort(v.begin(), v.end());
-
-        unordered_map<int, int> mp;
-
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (j != i && v[i] != v[j]) {
-                    int key = v[i] + v[j];
-                    mp[key]++;
-                }
-            }
+        vector<int> v(2 * n + 1, 0);
+        for (int i = 0; i < n; ++i) {
+            cin >> x;
+            v[x]++;
         }
 
         int ans = 0;
-        int val;
-        for (auto &p: mp) {
-            ans = max(ans, p.second);
-            cout << ans << " " << p.first << "\n";
+        for (int s = 0; s <= 2 * n; s++) {
+            int curr = 0;
+            for (int i = 0; i < s - i; ++i) {
+                curr += min(v[i], v[s - i]);
+            }
+
+            if (s % 2 == 0) curr += v[s / 2] / 2;
+            ans = max(ans, curr);
         }
 
         cout << ans << "\n";
