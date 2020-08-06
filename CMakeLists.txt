@@ -8,7 +8,8 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/b_subsequence_hate.cpp)
 #add_executable(codeforces common/a_odd_selection.cpp)
 #add_executable(codeforces common/a_berland_poker.cpp)
-add_executable(codeforces cf647/c.cpp)
+#add_executable(codeforces cf647/b.cpp)
+#add_executable(codeforces cf647/c.cpp)
 
 # 674
 #add_executable(codeforces cf647/b.cpp)
@@ -117,5 +118,11 @@ add_executable(codeforces cf647/c.cpp)
 #add_executable(codeforces cf660/b.cpp)
 #add_executable(codeforces cf660/c.cpp)
 #add_executable(codeforces cf660/d.cpp)
+
+# 661
+#add_executable(codeforces cf661/a.cpp)
+#add_executable(codeforces cf661/b.cpp)
+add_executable(codeforces cf661/c.cpp)
+#add_executable(codeforces cf661/d.cpp)
 
 #add_executable(main main.cpp)
