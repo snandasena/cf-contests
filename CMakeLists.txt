@@ -122,7 +122,7 @@ set(CMAKE_CXX_STANDARD 17)
 # 661
 #add_executable(codeforces cf661/a.cpp)
 #add_executable(codeforces cf661/b.cpp)
-add_executable(codeforces cf661/c.cpp)
-#add_executable(codeforces cf661/d.cpp)
+#add_executable(codeforces cf661/c.cpp)
+add_executable(codeforces cf661/d.cpp)
 
 #add_executable(main main.cpp)
