@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/a_odd_selection.cpp)
 #add_executable(codeforces common/a_berland_poker.cpp)
 #add_executable(codeforces common/a_bmail_compter_network.cpp)
-add_executable(codeforces common/a_new_year_traspotation.cpp)
+#add_executable(codeforces common/a_new_year_traspotation.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -127,5 +127,12 @@ add_executable(codeforces common/a_new_year_traspotation.cpp)
 #add_executable(codeforces cf661/b.cpp)
 #add_executable(codeforces cf661/c.cpp)
 #add_executable(codeforces cf661/d.cpp)
+
+
+# 662
+#add_executable(codeforces cf662/a.cpp)
+add_executable(codeforces cf662/b.cpp)
+#add_executable(codeforces cf662/c.cpp)
+#add_executable(codeforces cf662/d.cpp)
 
 #add_executable(main main.cpp)
