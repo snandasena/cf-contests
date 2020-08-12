@@ -137,8 +137,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 # 663
 #add_executable(codeforces cf663/a.cpp)
-add_executable(codeforces cf663/b.cpp)
-#add_executable(codeforces cf663/c.cpp)
+#add_executable(codeforces cf663/b.cpp)
+add_executable(codeforces cf663/c.cpp)
 #add_executable(codeforces cf663/d.cpp)
 
 
