@@ -23,33 +23,25 @@ int main() {
 
     int n, m, sx, sy;
     cin >> n >> m >> sx >> sy;
-    int visited[n + 1][m + 1];
-    for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= m; j++) {
-            visited[i][j] = 0;
-        }
-    }
     cout << sx << " " << sy << "\n";
-    for (int i = sx; i <= n; i++) {
-        for (int j = 1; j <= m + 1; j++) {
-            if (i == sx && j == sy) continue;
-            else {
-                if (j == m + 1 && i == n) {
-                    if (!visited[i + 1][j]) {
-                        cout << i + 1 << " " << j << "\n";
-                        visited[i + 1][j] = 1;
-                    }
-                } else {
-                    cout << i << " " << j << "\n";
-                    visited[i][j] = 1;
-                }
-            }
-        }
+
+    for (int i = 1; i <= n; ++i) {
+        if (i != sx) cout << i << " " << sy << "\n";
     }
 
-    for(int i = sx-1; i>=1; i--){
-        for (int j = 1; j < ; ++j) {
+    for (int i = 1; i <= m; ++i) {
+        if (i == sy) continue;
 
+        int dir = (i & 1);
+        if (i > sy) dir ^= 1;
+        if (dir == 1) {
+            for (int j = n; j; --j) {
+                cout << j << " " << i << "\n";
+            }
+        } else {
+            for (int j = 1; j <= n; ++j) {
+                cout << j << " " << i << "\n";
+            }
         }
     }
 
