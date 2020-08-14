@@ -10,6 +10,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/a_berland_poker.cpp)
 #add_executable(codeforces common/a_bmail_compter_network.cpp)
 #add_executable(codeforces common/a_new_year_traspotation.cpp)
+add_executable(codeforces common/array_with_odd_sum.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -144,7 +145,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 # 664
 #add_executable(codeforces cf664/a.cpp)
-add_executable(codeforces cf664/b.cpp)
+#add_executable(codeforces cf664/b.cpp)
 #add_executable(codeforces cf664/c.cpp)
 #add_executable(codeforces cf664/d.cpp)
 
