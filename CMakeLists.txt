@@ -15,6 +15,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/a_soft_drink.cpp)
 #add_executable(codeforces common/a_three_pile_of_candies.cpp)
 #add_executable(codeforces common/b_badge.cpp)
+add_executable(codeforces common/b_fence.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -156,7 +157,7 @@ set(CMAKE_CXX_STANDARD 17)
 # EDU 93
 #add_executable(codeforces ed93/a.cpp)
 #add_executable(codeforces ed93/b.cpp)
-add_executable(codeforces ed93/c.cpp)
+#add_executable(codeforces ed93/c.cpp)
 #add_executable(codeforces ed93/d.cpp)
 #add_executable(codeforces ed92/e.cpp)
 
