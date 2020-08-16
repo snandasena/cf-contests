@@ -13,9 +13,5 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
 
-    for (int i = 1; i <= 100; ++i) {
-        int c = (i & 1);
-        int d = c ^1;
-        cout << i << " " << c << " " << d << "\n";
-    }
+    return 0;
 }
