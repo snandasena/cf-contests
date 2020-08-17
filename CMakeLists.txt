@@ -18,7 +18,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/b_fence.cpp)
 #add_executable(codeforces common/b_card_construction.cpp)
 #add_executable(codeforces common/b_perfect_number.cpp)
-add_executable(codeforces common/b_photo_to_remember.cpp)
+#add_executable(codeforces common/b_photo_to_remember.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -163,5 +163,12 @@ add_executable(codeforces common/b_photo_to_remember.cpp)
 #add_executable(codeforces ed93/c.cpp)
 #add_executable(codeforces ed93/d.cpp)
 #add_executable(codeforces ed92/e.cpp)
+
+# GB 10
+#add_executable(codeforces gb10/a.cpp)
+#add_executable(codeforces gb10/b.cpp )
+add_executable(codeforces gb10/c.cpp )
+#add_executable(codeforces gb10/d.cpp )
+
 
 #add_executable(main main.cpp)

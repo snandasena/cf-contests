@@ -21,22 +21,5 @@ int main() {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    ll t, n, x = -1;
-    cin >> t;
-    while (t--) {
-        cin >> n;
-        int f;
-        cin >> f;
-        int c = 0;
-        for (int i = 1; i < n; i++) {
-            cin >> x;
-            if (f != x) c++;
-        }
-        if (c >0) cout << 1 << "\n";
-        else cout << n << "\n";
-
-
-    };
-
     return 0;
 }
