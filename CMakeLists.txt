@@ -19,6 +19,8 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/b_card_construction.cpp)
 #add_executable(codeforces common/b_perfect_number.cpp)
 #add_executable(codeforces common/b_photo_to_remember.cpp)
+#add_executable(codeforces common/c1_great_julia_calender.cpp)
+add_executable(codeforces common/b_bersu_ball.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -167,7 +169,7 @@ set(CMAKE_CXX_STANDARD 17)
 # GB 10
 #add_executable(codeforces gb10/a.cpp)
 #add_executable(codeforces gb10/b.cpp )
-add_executable(codeforces gb10/c.cpp )
+#add_executable(codeforces gb10/c.cpp )
 #add_executable(codeforces gb10/d.cpp )
 
 
