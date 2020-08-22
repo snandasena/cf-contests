@@ -21,6 +21,17 @@ int main() {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
+    int t;
+    ll x1, x2, x3, y1, y2, y3;
+    cin >> t;
+    while (t--) {
+        cin >> x1 >> x2 >> x3 >> y1 >> y2 >> y3;
+
+        ll ans = 0;
+
+        cout << ans << "\n";
+    }
+
 
     return 0;
 }
