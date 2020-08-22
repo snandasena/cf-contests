@@ -26,12 +26,17 @@ int main() {
     cin >> t;
     while (t--) {
         cin >> x1 >> x2 >> x3 >> y1 >> y2 >> y3;
-
         ll ans = 0;
+        ll c = min(x3, y2);
+        ans = c * 2;
+        x3 -= c;
+        y2 -= c;
 
+        c = min(x2, y1 + y2);
+        x2 -= c;
+        ans -= 2 * x2;
         cout << ans << "\n";
     }
-
 
     return 0;
 }
