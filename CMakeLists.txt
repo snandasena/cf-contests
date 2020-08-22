@@ -180,8 +180,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 # 665
 #add_executable(codeforces cf665/a.cpp)
-add_executable(codeforces cf665/b.cpp)
-#add_executable(codeforces cf665/c.cpp)
+#add_executable(codeforces cf665/b.cpp)
+add_executable(codeforces cf665/c.cpp)
 #add_executable(codeforces cf665/d.cpp)
 
 
