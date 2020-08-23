@@ -27,6 +27,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/b_kuriyama_mirai_stone.cpp)
 #add_executable(codeforces common/b_petr_conbitation_lock.cpp)
 #add_executable(codeforces common/b_fedor_and_new_game.cpp)
+add_executable(codeforces common/c_letters.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -181,7 +182,7 @@ set(CMAKE_CXX_STANDARD 17)
 # 665
 #add_executable(codeforces cf665/a.cpp)
 #add_executable(codeforces cf665/b.cpp)
-add_executable(codeforces cf665/c.cpp)
+#add_executable(codeforces cf665/c.cpp)
 #add_executable(codeforces cf665/d.cpp)
 
 
