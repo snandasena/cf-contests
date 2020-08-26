@@ -31,7 +31,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/a_lets_watch_football.cpp)
 #add_executable(codeforces common/c_frog_jums.cpp)
 #add_executable(codeforces common/a_deadline.cpp)
-add_executable(codeforces common/a_connr.cpp)
+#add_executable(codeforces common/a_connr.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -188,6 +188,13 @@ add_executable(codeforces common/a_connr.cpp)
 #add_executable(codeforces cf665/b.cpp)
 #add_executable(codeforces cf665/c.cpp)
 #add_executable(codeforces cf665/d.cpp)
+
+
+# EDU 94
+add_executable(codeforces ed94/a.cpp)
+#add_executable(codeforces ed94/b.cpp)
+#add_executable(codeforces ed94/c.cpp)
+#add_executable(codeforces ed94/d.cpp)
 
 
 #add_executable(main main.cpp)
