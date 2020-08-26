@@ -191,8 +191,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 
 # EDU 94
-add_executable(codeforces ed94/a.cpp)
-#add_executable(codeforces ed94/b.cpp)
+#add_executable(codeforces ed94/a.cpp)
+add_executable(codeforces ed94/b.cpp)
 #add_executable(codeforces ed94/c.cpp)
 #add_executable(codeforces ed94/d.cpp)
 
