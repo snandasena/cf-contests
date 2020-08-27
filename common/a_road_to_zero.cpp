@@ -1,0 +1,37 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+using ll = long long;
+using ld = long double;
+
+ll gcd(ll a, ll b) {
+    while (b) {
+        a %= b;
+        swap(a, b);
+    }
+    return a;
+}
+
+ll lcm(ll a, ll b) {
+    return a / gcd(a, b) * b;
+}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+
+    ll t, x, y, a, b;
+    cin >> t;
+    while (t--) {
+        cin >> x >> y >> a >> b;
+        b = min(b, a + a);
+        if (x < y) {
+            swap(x, y);
+        }
+
+        cout << (y * b + (x - y) * a) << "\n";
+
+    }
+    return 0;
+}

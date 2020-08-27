@@ -32,6 +32,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/c_frog_jums.cpp)
 #add_executable(codeforces common/a_deadline.cpp)
 #add_executable(codeforces common/a_connr.cpp)
+add_executable(codeforces common/a_road_to_zero.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -192,7 +193,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 # EDU 94
 #add_executable(codeforces ed94/a.cpp)
-add_executable(codeforces ed94/b.cpp)
+#add_executable(codeforces ed94/b.cpp)
 #add_executable(codeforces ed94/c.cpp)
 #add_executable(codeforces ed94/d.cpp)
 
