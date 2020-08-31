@@ -39,6 +39,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/b_assign_to_classes.cpp)
 #add_executable(codeforces common/b_ania_and_minizing.cpp)
 #add_executable(codeforces common/b_polycarp_training.cpp)
+add_executable(codeforces common/b_dzy_loves_string.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -201,12 +202,12 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces ed94/a.cpp)
 #add_executable(codeforces ed94/b.cpp)
 #add_executable(codeforces ed94/c.cpp)
-#add_executable(codeforces ed94/d.cpp)
+#add_executable(codeforces ed94/d.cpp)int i = 1; i <= 26; ++i
 
 
 # 666
 #add_executable(codeforces cf666/a.cpp)
-add_executable(codeforces cf666/b.cpp)
+#add_executable(codeforces cf666/b.cpp)
 #add_executable(codeforces cf666/c.cpp)
 #add_executable(codeforces cf666/d.cpp)
 
