@@ -46,7 +46,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/a_find_amir.cpp)
 #add_executable(codeforces common/a_ehab_fails_to_be_thanos.cpp)
 #add_executable(codeforces common/a_shortest_path_of_the_king.cpp)
-add_executable(codeforces common/a_amr_and_music.cpp)
+#add_executable(codeforces common/a_amr_and_music.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -218,5 +218,10 @@ add_executable(codeforces common/a_amr_and_music.cpp)
 #add_executable(codeforces cf666/c.cpp)
 #add_executable(codeforces cf666/d.cpp)
 
+# 667
+#add_executable(codeforces cf667/a.cpp)
+add_executable(codeforces cf667/b.cpp)
+#add_executable(codeforces cf667/c.cpp)
+#add_executable(codcdeforces cf667/d.cpp)
 
 #add_executable(main main.cpp)
