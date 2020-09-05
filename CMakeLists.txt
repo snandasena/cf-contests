@@ -220,8 +220,13 @@ set(CMAKE_CXX_STANDARD 17)
 
 # 667
 #add_executable(codeforces cf667/a.cpp)
-add_executable(codeforces cf667/b.cpp)
+#add_executable(codeforces cf667/b.cpp)
 #add_executable(codeforces cf667/c.cpp)
 #add_executable(codcdeforces cf667/d.cpp)
 
 #add_executable(main main.cpp)
+
+
+#hacker ranck
+#add_executable(hacker_rank hacker_rank/anagram.cpp)
+#add_executable(hacker_rank hacker_rank/palindrom_index.cpp)
