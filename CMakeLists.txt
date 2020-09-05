@@ -230,3 +230,8 @@ set(CMAKE_CXX_STANDARD 17)
 #hacker ranck
 #add_executable(hacker_rank hacker_rank/anagram.cpp)
 #add_executable(hacker_rank hacker_rank/palindrom_index.cpp)
+#add_executable(hacker_rank hacker_rank/sherlock_and_the_valid_string.cpp)
+
+
+# leetcode
+add_executable(leetcode leetcode/template.cpp)
