@@ -234,4 +234,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 
 # leetcode
-add_executable(leetcode leetcode/template.cpp)
+#add_executable(leetcode leetcode/template.cpp)
+#add_executable(leetcode leetcode/min_frogs.cpp)
+add_executable(leetcode leetcode/island_perimeter.cpp)
