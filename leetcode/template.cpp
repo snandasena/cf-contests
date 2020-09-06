@@ -2,24 +2,49 @@
 
 using namespace std;
 
-int minNumberOfFrogs(string croakOfFrogs) {
-    int ans = 0, cnt = 0;
-    vector<int> v(128, 0);
-    for (char &c: croakOfFrogs) {
-        v[int(c)]++;
+class Solution {
+public:
+    int dfs(const string &board, const vector<int> &handcnt, int idx) {
+        if (idx == board.size()) return 0;
 
-        if (c == 'c') cnt++;
-        else if (c == 'k') cnt--;
+        int res = (INT_MAX >> 1);
 
-        if (v['k'] > v['a'] || v['a'] > v['o'] || v['o'] > v['r'] || v['r'] > v['c']) return -1;
-        ans = max(ans, cnt);
+        for (int i = idx; i < board.size(); ++i) {
+            if (i == 0 || board[i] != board[i - 1]) {
+                int cnt = 0, j = i;
+                while (j < board.size() && board[j] == board[i]) cnt++, j++;
+                int need = 3 - cnt;
+                if (need < 0) need = 0;
+                if (handcnt[board[i]] < need) continue;
+                vector<int> newhandcnt(handcnt);
+                newhandcnt[board[i]] -= need;
+
+                string newboard = board.substr(0, i) + board.substr(j);
+
+                res = min(res, need + dfs(newboard, newhandcnt, 0));
+            }
+        }
+
+        return res;
     }
 
-    if (v['c'] != v['r'] || v['c'] != v['o'] || v['c'] != v['a'] || v['c'] != v['k']) return -1;
-    else return ans;
-}
 
-int main() {
-    cout<<minNumberOfFrogs("croakcroak");
+    int findMinStep(string board, string hand) {
+        if (board.empty()) return 0;
+        vector<int> handcnt(90, 0);
+        for (char &c: hand) handcnt[c]++;
+
+        auto res = dfs(board, handcnt, 0);
+
+        return res == (INT_MAX >> 1) ? -1 : res;
+    }
+
+};
+
+int main(){
+
+    Solution solution;
+    cout<<solution.findMinStep("WWRRBBWW","WRBRW");
+
     return 0;
 }
