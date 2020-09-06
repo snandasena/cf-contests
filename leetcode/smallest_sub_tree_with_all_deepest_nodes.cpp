@@ -32,7 +32,7 @@ public:
     TreeNode *result;
 
     int solve(TreeNode *root, int level) {
-        if (root == NULL) return level;
+        if (root == nullptr) return level;
 
         int l = solve(root->left, level + 1);
         int r = solve(root->right, level + 1);
