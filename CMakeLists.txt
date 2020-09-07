@@ -227,11 +227,11 @@ set(CMAKE_CXX_STANDARD 17)
 
 # 668
 #add_executable(codeforces cf668/a.cpp)
-add_executable(codeforces cf668/b.cpp)
+#add_executable(codeforces cf668/b.cpp)
 #add_executable(codeforces cf668/c.cpp)
 #add_executable(codeforces cf668/d.cpp)
 
-#add_executable(main main.cpp)
+add_executable(main main.cpp)
 
 
 #hacker ranck
@@ -246,3 +246,4 @@ add_executable(codeforces cf668/b.cpp)
 #add_executable(leetcode leetcode/island_perimeter.cpp)
 #add_executable(leetcode leetcode/smallest_sub_tree_with_all_deepest_nodes.cpp)
 #add_executable(leetcode leetcode/maximun_area_of_a_piece_of_cake.cpp)
+#add_executable(leetcode leetcode/find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree.cpp)
