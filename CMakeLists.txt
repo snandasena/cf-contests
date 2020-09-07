@@ -231,7 +231,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces cf668/c.cpp)
 #add_executable(codeforces cf668/d.cpp)
 
-add_executable(main main.cpp)
+#add_executable(main main.cpp)
 
 
 #hacker ranck
@@ -247,3 +247,5 @@ add_executable(main main.cpp)
 #add_executable(leetcode leetcode/smallest_sub_tree_with_all_deepest_nodes.cpp)
 #add_executable(leetcode leetcode/maximun_area_of_a_piece_of_cake.cpp)
 #add_executable(leetcode leetcode/find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree.cpp)
+#add_executable(leetcode leetcode/find_first_and_last_position_of_element_in_sorted_array.cpp)
+add_executable(leetcode leetcode/longest_sub_string_without_repeating.cpp)
