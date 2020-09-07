@@ -222,7 +222,14 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces cf667/a.cpp)
 #add_executable(codeforces cf667/b.cpp)
 #add_executable(codeforces cf667/c.cpp)
-#add_executable(codcdeforces cf667/d.cpp)
+#add_executable(codeforces cf667/d.cpp)
+
+
+# 668
+#add_executable(codeforces cf668/a.cpp)
+add_executable(codeforces cf668/b.cpp)
+#add_executable(codeforces cf668/c.cpp)
+#add_executable(codeforces cf668/d.cpp)
 
 #add_executable(main main.cpp)
 
@@ -230,3 +237,12 @@ set(CMAKE_CXX_STANDARD 17)
 #hacker ranck
 #add_executable(hacker_rank hacker_rank/anagram.cpp)
 #add_executable(hacker_rank hacker_rank/palindrom_index.cpp)
+#add_executable(hacker_rank hacker_rank/sherlock_and_the_valid_string.cpp)
+
+
+# leetcode
+#add_executable(leetcode leetcode/template.cpp)
+#add_executable(leetcode leetcode/min_frogs.cpp)
+#add_executable(leetcode leetcode/island_perimeter.cpp)
+#add_executable(leetcode leetcode/smallest_sub_tree_with_all_deepest_nodes.cpp)
+#add_executable(leetcode leetcode/maximun_area_of_a_piece_of_cake.cpp)
