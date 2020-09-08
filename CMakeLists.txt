@@ -240,7 +240,8 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/sherlock_and_the_valid_string.cpp)
 #add_executable(hacker_rank hacker_rank/ransome_note.cpp)
 #add_executable(hacker_rank hacker_rank/two_string.cpp)
-add_executable(hacker_rank hacker_rank/sherlock_and_anagram.cpp)
+#add_executable(hacker_rank hacker_rank/sherlock_and_anagram.cpp)
+add_executable(hacker_rank hacker_rank/count_triplet.cpp)
 
 
 # leetcode
