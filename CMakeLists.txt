@@ -233,7 +233,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 # 669
 #add_executable(codeforces cf669/a.cpp)
-add_executable(codeforces cf669/b.cpp)
+#add_executable(codeforces cf669/b.cpp)
 #add_executable(codeforces cf669/c.cpp)
 #add_executable(codeforces cf669/d.cpp)
 
@@ -249,6 +249,7 @@ add_executable(codeforces cf669/b.cpp)
 #add_executable(hacker_rank hacker_rank/sherlock_and_anagram.cpp)
 #add_executable(hacker_rank hacker_rank/count_triplet.cpp)
 #add_executable(hacker_rank hacker_rank/frequency_queries.cpp)
+add_executable(hacker_rank hacker_rank/alternating_characters.cpp)
 
 
 # leetcode
