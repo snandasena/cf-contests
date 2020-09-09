@@ -25,11 +25,11 @@ vector<int> freqQuery(vector<vector<int>> queries) {
                 x[q[1]]--;
                 y[k]--;
 
-                if (y[k - 1] > 0) y[k - 1]++;
+                if (k-1 > 0) y[k - 1]++;
 
             }
         } else {
-            if (y[q[1]]) ans.emplace_back(1);
+            if (y[q[1]] > 0) ans.emplace_back(1);
             else ans.emplace_back(0);
         }
     }
