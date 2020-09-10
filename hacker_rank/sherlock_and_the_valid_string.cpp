@@ -9,28 +9,22 @@ string isValid(string s) {
         v[int(c - 'a')]++;
     }
 
-    vector<int> a;
-    for (int &i: v) if (i != 0) a.emplace_back(i);
+    string ans = "NO";
+    for (int i = -1; i < 26; ++i) {
+        if (i >= 0 && v[i] == 0) continue;
 
-    sort(a.begin(), a.end());
+        if (i >= 0) v[i]--;
 
-    if (a.front() == a.back()) return "YES";
-    else {
-        int x = a[1] - a[0];
-        int c = x == 0 ? 0 : 1;
-        int mx = x;
-        for (int i = 2; i < a.size(); ++i) {
-            int k = a[i] - a[0];
-            if (k != x) {
-                c++;
-                mx = max(k, mx);
-            }
-        }
+        set<int> a;
 
-        if (c > 1 || mx > 1) return "NO"; // todo
-        else return "YES";
+        for (int j = 0; j < 26; ++j) if (v[j]) a.insert(v[j]);
 
+        if (a.size() == 1) ans = "YES";
+
+        if (i >= 0) v[i]++;
     }
+
+    return ans;
 
 }
 
