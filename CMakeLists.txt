@@ -47,6 +47,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/a_ehab_fails_to_be_thanos.cpp)
 #add_executable(codeforces common/a_shortest_path_of_the_king.cpp)
 #add_executable(codeforces common/a_amr_and_music.cpp)
+add_executable(codeforces common/a_king_escape.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -250,7 +251,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/count_triplet.cpp)
 #add_executable(hacker_rank hacker_rank/frequency_queries.cpp)
 #add_executable(hacker_rank hacker_rank/alternating_characters.cpp)
-add_executable(hacker_rank hacker_rank/special_string_again.cpp)
+#add_executable(hacker_rank hacker_rank/special_string_again.cpp)
 
 
 # leetcode
