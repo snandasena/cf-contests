@@ -49,7 +49,8 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/a_amr_and_music.cpp)
 #add_executable(codeforces common/a_king_escape.cpp)
 #add_executable(codeforces common/a_transformation_from_a_to_b.cpp)
-add_executable(codeforces common/a_dzy_loves_chessbord.cpp)
+#add_executable(codeforces common/a_dzy_loves_chessbord.cpp)
+add_executable(codeforces common/b_weired_sort.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -238,7 +239,13 @@ add_executable(codeforces common/a_dzy_loves_chessbord.cpp)
 #add_executable(codeforces cf669/a.cpp)
 #add_executable(codeforces cf669/b.cpp)
 #add_executable(codeforces cf669/c.cpp)
-#add_executable(codeforces cf669/d.cpp)
+#add_executable(codeforces cf669/d.cpp)1
+
+
+# 671
+#add_executable(codeforces cf671/a.cpp)
+#add_executable(codeforces cf671/b.cpp)
+#add_executable(codeforces cf671/c.cpp)
 
 #add_executable(main main.cpp)
 
