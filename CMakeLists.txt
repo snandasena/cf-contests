@@ -244,8 +244,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 # 671
 #add_executable(codeforces cf671/a.cpp)
-add_executable(codeforces cf671/b.cpp)
-#add_executable(codeforces cf671/c.cpp)
+#add_executable(codeforces cf671/b.cpp)
+add_executable(codeforces cf671/c.cpp)
 
 #add_executable(main main.cpp)
 

@@ -21,6 +21,22 @@ int main() {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
+    int t, n, x, k;
+    cin >> t;
+    while (t--) {
+        cin >> n >> x;
+        int cnt = 0, sum = 0;
+        for (int i = 0; i < n; ++i) {
+            cin >> k;
+            cnt += (x == k);
+            sum += k;
+        }
+
+        if (cnt == n) cout << "0\n";
+        else if (cnt > 0)cout << "1\n";
+        else if (sum == n * x) cout << "1\n";
+        else cout << "2\n";
+    }
 
     return 0;
 }
