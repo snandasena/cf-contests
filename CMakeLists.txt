@@ -76,7 +76,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/a_diversity.cpp)
 #add_executable(codeforces common/b_buggy_robot.cpp)
 #add_executable(codeforces common/a_ciel_and_dancing.cpp)
-add_executable(codeforces common/a_table.cpp)
+#add_executable(codeforces common/a_table.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -287,6 +287,7 @@ add_executable(codeforces common/a_table.cpp)
 #add_executable(hacker_rank hacker_rank/frequency_queries.cpp)
 #add_executable(hacker_rank hacker_rank/alternating_characters.cpp)
 #add_executable(hacker_rank hacker_rank/special_string_again.cpp)
+add_executable(hacker_rank hacker_rank/bubble_sort.cpp)
 
 
 # leetcode
