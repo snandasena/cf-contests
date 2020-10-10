@@ -78,7 +78,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/a_ciel_and_dancing.cpp)
 #add_executable(codeforces common/a_table.cpp)
 #add_executable(codeforces common/a_group_of_students.cpp)
-add_executable(codeforces common/b_pillars.cpp)
+#add_executable(codeforces common/b_pillars.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -292,6 +292,7 @@ add_executable(codeforces common/b_pillars.cpp)
 #add_executable(hacker_rank hacker_rank/bubble_sort.cpp)
 #add_executable(hacker_rank hacker_rank/mark_and_toys.cpp)
 #add_executable(hacker_rank hacker_rank/comparator.cpp)
+add_executable(hacker_rank hacker_rank/new_year_chaos.cpp)
 
 
 # leetcode
