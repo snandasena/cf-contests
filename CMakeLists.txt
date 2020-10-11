@@ -294,7 +294,8 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/comparator.cpp)
 #add_executable(hacker_rank hacker_rank/new_year_chaos.cpp)
 #add_executable(hacker_rank hacker_rank/minimum_swaps2.cpp)
-add_executable(hacker_rank hacker_rank/array_manipulation.cpp)
+#add_executable(hacker_rank hacker_rank/array_manipulation.cpp)
+add_executable(hacker_rank hacker_rank/minimum_absolute_difference_in_an_rray.cpp)
 
 
 # leetcode
