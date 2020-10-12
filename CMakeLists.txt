@@ -79,6 +79,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/a_table.cpp)
 #add_executable(codeforces common/a_group_of_students.cpp)
 #add_executable(codeforces common/b_pillars.cpp)
+add_executable(codeforces common/a_k_periodic_array.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -295,7 +296,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/new_year_chaos.cpp)
 #add_executable(hacker_rank hacker_rank/minimum_swaps2.cpp)
 #add_executable(hacker_rank hacker_rank/array_manipulation.cpp)
-add_executable(hacker_rank hacker_rank/minimum_absolute_difference_in_an_rray.cpp)
+#add_executable(hacker_rank hacker_rank/minimum_absolute_difference_in_an_rray.cpp)
 
 
 # leetcode
