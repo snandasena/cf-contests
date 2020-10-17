@@ -84,7 +84,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/a_paper_work.cpp)
 #add_executable(codeforces common/c_similar_pairs.cpp)
 #add_executable(codeforces common/b_middle_class.cpp)
-add_executable(codeforces common/a_cinema_line.cpp)
+#add_executable(codeforces common/a_cinema_line.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -302,6 +302,7 @@ add_executable(codeforces common/a_cinema_line.cpp)
 #add_executable(hacker_rank hacker_rank/minimum_swaps2.cpp)
 #add_executable(hacker_rank hacker_rank/array_manipulation.cpp)
 #add_executable(hacker_rank hacker_rank/minimum_absolute_difference_in_an_rray.cpp)
+add_executable(hacker_rank hacker_rank/luck_balance.cpp)
 
 
 # leetcode
