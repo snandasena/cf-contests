@@ -304,7 +304,8 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/minimum_absolute_difference_in_an_rray.cpp)
 #add_executable(hacker_rank hacker_rank/luck_balance.cpp)
 #add_executable(hacker_rank hacker_rank/greedy_florist.cpp)
-add_executable(hacker_rank hacker_rank/max_min.cpp)
+#add_executable(hacker_rank hacker_rank/max_min.cpp)
+add_executable(hacker_rank hacker_rank/ice_cream_parlor.cpp)
 
 
 # leetcode
