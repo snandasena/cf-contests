@@ -88,7 +88,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/c_yet_another_broken_keyboard.cpp)
 #add_executable(codeforces common/b_creating_the_contest.cpp)
 #add_executable(codeforces common/b_block_adventure.cpp)
-add_executable(codeforces common/b_restricted_rps.cpp)
+#add_executable(codeforces common/b_restricted_rps.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -311,7 +311,7 @@ add_executable(codeforces common/b_restricted_rps.cpp)
 #add_executable(hacker_rank hacker_rank/max_min.cpp)
 #add_executable(hacker_rank hacker_rank/ice_cream_parlor.cpp)
 #add_executable(hacker_rank hacker_rank/pairs.cpp)
-#add_executable(hacker_rank hacker_rank/max_array_sum.cpp) todo
+add_executable(hacker_rank hacker_rank/max_array_sum.cpp)
 #add_executable(hacker_rank hacker_rank/sales_by_match.cpp)
 
 

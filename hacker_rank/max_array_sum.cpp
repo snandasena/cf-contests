@@ -6,8 +6,13 @@ vector<string> split_string(string);
 
 // Complete the maxSubsetSum function below.
 int maxSubsetSum(vector<int> arr) {
+    auto n = arr.size();
+    vector<int> dp(n + 3);
+    for (auto i = n - 1; i >= 0; i--) {
+        dp[i] = max(arr[i] + dp[i + 2], dp[i + 1]);
+    }
 
-
+    return dp[0];
 }
 
 int main() {
