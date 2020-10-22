@@ -313,7 +313,8 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/pairs.cpp)
 #add_executable(hacker_rank hacker_rank/sales_by_match.cpp)
 #add_executable(hacker_rank hacker_rank/max_array_sum.cpp)
-add_executable(hacker_rank hacker_rank/abbreviation.cpp)
+#add_executable(hacker_rank hacker_rank/abbreviation.cpp)
+add_executable(hacker_rank hacker_rank/candies.cpp)
 
 
 # leetcode
