@@ -89,7 +89,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/b_creating_the_contest.cpp)
 #add_executable(codeforces common/b_block_adventure.cpp)
 #add_executable(codeforces common/b_restricted_rps.cpp)
-add_executable(codeforces common/b_lecture_sleep.cpp)
+#add_executable(codeforces common/b_lecture_sleep.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -316,6 +316,7 @@ add_executable(codeforces common/b_lecture_sleep.cpp)
 #add_executable(hacker_rank hacker_rank/max_array_sum.cpp)
 #add_executable(hacker_rank hacker_rank/abbreviation.cpp)
 #add_executable(hacker_rank hacker_rank/candies.cpp)
+add_executable(hacker_rank hacker_rank/triple_sum.cpp)
 
 
 # leetcode
