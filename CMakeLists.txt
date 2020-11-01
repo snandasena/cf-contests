@@ -102,7 +102,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/b_game_of_credit_cards.cpp)
 #add_executable(codeforces common/c_maximum_splitting.cpp)
 #add_executable(codeforces common/b_new_skateboard.cpp)
-add_executable(codeforces common/b_mike_and_strings.cpp)
+#add_executable(codeforces common/b_mike_and_strings.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -330,6 +330,7 @@ add_executable(codeforces common/b_mike_and_strings.cpp)
 #add_executable(hacker_rank hacker_rank/abbreviation.cpp)
 #add_executable(hacker_rank hacker_rank/candies.cpp)
 #add_executable(hacker_rank hacker_rank/triple_sum.cpp)
+add_executable(hacker_rank hacker_rank/counting_valleys.cpp)
 
 
 # leetcode
