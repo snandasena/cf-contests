@@ -21,6 +21,30 @@ public:
     }
 };
 
+
+class Solution2 {
+public:
+    bool isValid(string s) {
+        map<char, char> mp = {{'(', ')'},
+                              {'{', '}'},
+                              {'[', ']'}};
+        stack<char> st;
+        for (char &c: s) {
+            if (mp.count(c) > 0) st.push(c);
+            else {
+                if (st.empty()) return false;
+
+                auto tc = st.top();
+                if (mp[c] != tc) return false;
+                st.pop();
+            }
+        }
+
+        return st.empty();
+    }
+};
+
+
 int main() {
 
     ios_base::sync_with_stdio(false);
