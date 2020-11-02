@@ -347,5 +347,5 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(leetcode leetcode/longest_sub_string_without_repeating.cpp)
 #add_executable(leetcode leetcode/reverce_integer.cpp)
 #add_executable(leetcode leetcode/palindrome_number.cpp)
-add_executable(leetcode leetcode/roman_to_integer.cpp
-        )
+#add_executable(leetcode leetcode/roman_to_integer.cpp)
+add_executable(leetcode leetcode/valid_parantheses.cpp)
