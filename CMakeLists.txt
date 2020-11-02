@@ -332,7 +332,8 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/triple_sum.cpp)
 #add_executable(hacker_rank hacker_rank/counting_valleys.cpp)
 #add_executable(hacker_rank hacker_rank/jumping_on_the_clouds.cpp)
-add_executable(hacker_rank hacker_rank/repeat_letters.cpp)
+#add_executable(hacker_rank hacker_rank/repeat_letters.cpp)
+add_executable(hacker_rank hacker_rank/equal.cpp)
 
 
 # leetcode
