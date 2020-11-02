@@ -332,6 +332,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/triple_sum.cpp)
 #add_executable(hacker_rank hacker_rank/counting_valleys.cpp)
 #add_executable(hacker_rank hacker_rank/jumping_on_the_clouds.cpp)
+add_executable(hacker_rank hacker_rank/repeat_letters.cpp)
 
 
 # leetcode
@@ -344,4 +345,4 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(leetcode leetcode/find_first_and_last_position_of_element_in_sorted_array.cpp)
 #add_executable(leetcode leetcode/longest_sub_string_without_repeating.cpp)
 #add_executable(leetcode leetcode/reverce_integer.cpp)
-add_executable(leetcode leetcode/palindrome_number.cpp)
+#add_executable(leetcode leetcode/palindrome_number.cpp)
