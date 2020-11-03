@@ -334,6 +334,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/jumping_on_the_clouds.cpp)
 #add_executable(hacker_rank hacker_rank/repeat_letters.cpp)
 #add_executable(hacker_rank hacker_rank/equal.cpp)
+add_executable(hacker_rank hacker_rank/forming_a_magic_square.cpp)
 
 
 # leetcode
@@ -348,4 +349,4 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(leetcode leetcode/reverce_integer.cpp)
 #add_executable(leetcode leetcode/palindrome_number.cpp)
 #add_executable(leetcode leetcode/roman_to_integer.cpp)
-add_executable(leetcode leetcode/valid_parantheses.cpp)
+#add_executable(leetcode leetcode/valid_parantheses.cpp)
