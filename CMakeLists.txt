@@ -336,7 +336,8 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/equal.cpp)
 #add_executable(hacker_rank hacker_rank/forming_a_magic_square.cpp)
 #add_executable(hacker_rank hacker_rank/climbing_the_leaderboard.cpp)
-add_executable(hacker_rank hacker_rank/non_divisible_subset.cpp)
+#add_executable(hacker_rank hacker_rank/non_divisible_subset.cpp)
+add_executable(hacker_rank hacker_rank/queens_attack_ii.cpp)
 
 
 # leetcode
