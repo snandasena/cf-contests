@@ -337,7 +337,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/forming_a_magic_square.cpp)
 #add_executable(hacker_rank hacker_rank/climbing_the_leaderboard.cpp)
 #add_executable(hacker_rank hacker_rank/non_divisible_subset.cpp)
-add_executable(hacker_rank hacker_rank/queens_attack_ii.cpp)
+#add_executable(hacker_rank hacker_rank/queens_attack_ii.cpp)
 
 
 # leetcode
@@ -358,3 +358,4 @@ add_executable(hacker_rank hacker_rank/queens_attack_ii.cpp)
 #add_executable(leetcode leetcode/remove_element.cpp)
 #add_executable(leetcode leetcode/implement_strstr.cpp)
 #add_executable(leetcode leetcode/add_two_numbers.cpp)
+add_executable(leetcode leetcode/search_insert_position.cpp)
