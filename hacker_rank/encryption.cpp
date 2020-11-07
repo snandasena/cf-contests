@@ -17,7 +17,6 @@ string encryption(string s) {
     return ans;
 }
 
-int main() {
     ofstream fout(getenv("OUTPUT_PATH"));
 
     string s;
