@@ -2,20 +2,28 @@
 
 using namespace std;
 
-class Solution {
-public:
-    int divide(int dividend, int divisor) {
+int MOD = 1e7 + 7;
 
-        if (INT_MIN == dividend && divisor == -1) return INT_MAX;
-
-        int n = 0;
-        int64_t lldd = (dividend > 0 ? dividend : (++n, (int64_t) 0 - dividend));
-        int64_t llds = (divisor > 0 ? divisor : (++n, (int64_t) 0 - divisor));
-
-        int64_t res = lldd / llds;
-
-        res = (1 == n ? -res : res);
-        return (int) res;
-
+template<typename T>
+T power(T x, T y)
+{
+    if (x == 0) return 1;
+    if (y & 1)
+    {
+        return power(x, y - 1) * x % MOD;
+    }
+    else
+    {
+        T tmp = power(x, y >> 1);
+        return tmp * tmp % MOD;
     }
 };
+
+int main()
+{
+    int x = 10;
+//    cout<< (x<<1)<<" "<< (x>>1);
+
+    cout << power(3, 2);
+    return 0;
+}
