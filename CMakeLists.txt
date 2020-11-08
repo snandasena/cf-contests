@@ -341,7 +341,8 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/organizing_container_of_balls.cpp)
 #add_executable(hacker_rank hacker_rank/encryption.cpp)
 #add_executable(hacker_rank hacker_rank/bigger_is_greater.cpp)
-add_executable(hacker_rank hacker_rank/highest_value_palindrome.cpp)
+#add_executable(hacker_rank hacker_rank/highest_value_palindrome.cpp)
+add_executable(hacker_rank hacker_rank/maximum_palindromes.cpp)
 
 
 # leetcode
