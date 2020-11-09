@@ -103,6 +103,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/c_maximum_splitting.cpp)
 #add_executable(codeforces common/b_new_skateboard.cpp)
 #add_executable(codeforces common/b_mike_and_strings.cpp)
+add_executable(codeforces common/a_pangram.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -342,7 +343,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/encryption.cpp)
 #add_executable(hacker_rank hacker_rank/bigger_is_greater.cpp)
 #add_executable(hacker_rank hacker_rank/highest_value_palindrome.cpp)
-add_executable(hacker_rank hacker_rank/maximum_palindromes.cpp)
+#add_executable(hacker_rank hacker_rank/maximum_palindromes.cpp)
 
 
 # leetcode
