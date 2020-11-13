@@ -118,6 +118,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/a_even_substrings.cpp)
 #add_executable(codeforces common/a_keanu_reeves.cpp)
 #add_executable(codeforces common/a_equality.cpp)
+add_executable(codeforces common/a_there_are_two_types_of_burgers.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -358,7 +359,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/bigger_is_greater.cpp)
 #add_executable(hacker_rank hacker_rank/highest_value_palindrome.cpp)
 #add_executable(hacker_rank hacker_rank/maximum_palindromes.cpp)
-add_executable(hacker_rank hacker_rank/roads_and_libraries.cpp)
+#add_executable(hacker_rank hacker_rank/roads_and_libraries.cpp)
 
 
 # leetcode
