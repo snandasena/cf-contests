@@ -360,7 +360,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/highest_value_palindrome.cpp)
 #add_executable(hacker_rank hacker_rank/maximum_palindromes.cpp)
 #add_executable(hacker_rank hacker_rank/roads_and_libraries.cpp)
-add_executable(hacker_rank hacker_rank/journey_to_the_moon.cpp)
+#add_executable(hacker_rank hacker_rank/journey_to_the_moon.cpp)
 
 
 # leetcode
@@ -382,3 +382,6 @@ add_executable(hacker_rank hacker_rank/journey_to_the_moon.cpp)
 #add_executable(leetcode leetcode/implement_strstr.cpp)
 #add_executable(leetcode leetcode/add_two_numbers.cpp)
 #add_executable(leetcode leetcode/search_insert_position.cpp)
+
+
+add_executable(datastructures ds/queue_using_two_stacks.cpp)
