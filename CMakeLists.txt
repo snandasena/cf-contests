@@ -386,4 +386,5 @@ set(CMAKE_CXX_STANDARD 17)
 
 #add_executable(datastructures ds/queue_using_two_stacks.cpp)
 #add_executable(datastructures ds/insert_a_node_at_the_tail_of_a_linked_list.cpp)
-add_executable(datastructures ds/print_the_elements_of_a_linked_list.cpp)
+#add_executable(datastructures ds/print_the_elements_of_a_linked_list.cpp)
+add_executable(datastructures ds/insert_a_node_at_the_head_of_a_linked_list.cpp)
