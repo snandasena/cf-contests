@@ -9,7 +9,7 @@ struct Node
 
 void Insert(Node **, int);
 
-void Print(Node*);
+void Print(Node *);
 
 int main()
 {

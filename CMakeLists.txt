@@ -119,6 +119,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/a_keanu_reeves.cpp)
 #add_executable(codeforces common/a_equality.cpp)
 #add_executable(codeforces common/a_there_are_two_types_of_burgers.cpp)
+add_executable(codeforces common/a_i_love_username.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -361,6 +362,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/maximum_palindromes.cpp)
 #add_executable(hacker_rank hacker_rank/roads_and_libraries.cpp)
 #add_executable(hacker_rank hacker_rank/journey_to_the_moon.cpp)
+#add_executable(hacker_rank hacker_rank/QHEAP1.cpp) todo
 
 
 # leetcode
@@ -389,5 +391,5 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(datastructures ds/print_the_elements_of_a_linked_list.cpp)
 #add_executable(datastructures ds/insert_a_node_at_the_head_of_a_linked_list.cpp)
 #add_executable(datastructures ds/insert_a_node_at_a_specific_position_in_a_linked_list.cpp)
-add_executable(datastructures ds/linked_list.cpp)
+#add_executable(datastructures ds/linked_list.cpp)
 #add_executable(datastructures ds/delete_a_node_from_linked_list.cpp)
