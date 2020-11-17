@@ -83,8 +83,31 @@ void free_singly_linked_list(SinglyLinkedListNode *node)
  */
 SinglyLinkedListNode *deleteNode(SinglyLinkedListNode *head, int position)
 {
+    SinglyLinkedListNode *pre = nullptr;
+    SinglyLinkedListNode *ptr = head;
 
+    int pos = 0;
+    if (position == 0)
+    {
+        head = head->next;
+        delete (ptr);
+    }
+    else
+    {
+        while (position != pos)
+        {
+            ++pos;
+            pre = ptr;
+            ptr = ptr->next;
+        }
 
+        if (ptr != nullptr)
+        {
+            pre->next = ptr->next;
+            delete (ptr);
+        }
+    }
+    return head;
 }
 
 int main()

@@ -365,7 +365,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(hacker_rank hacker_rank/roads_and_libraries.cpp)
 #add_executable(hacker_rank hacker_rank/journey_to_the_moon.cpp)
 #add_executable(hacker_rank hacker_rank/QHEAP1.cpp)
-add_executable(hacker_rank hacker_rank/QHEAP1_PQ.cpp)
+#add_executable(hacker_rank hacker_rank/QHEAP1_PQ.cpp)
 
 
 # leetcode
@@ -395,4 +395,4 @@ add_executable(hacker_rank hacker_rank/QHEAP1_PQ.cpp)
 #add_executable(datastructures ds/insert_a_node_at_the_head_of_a_linked_list.cpp)
 #add_executable(datastructures ds/insert_a_node_at_a_specific_position_in_a_linked_list.cpp)
 #add_executable(datastructures ds/linked_list.cpp)
-#add_executable(datastructures ds/delete_a_node_from_linked_list.cpp)
+add_executable(datastructures ds/delete_a_node_from_linked_list.cpp)
