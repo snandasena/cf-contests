@@ -121,7 +121,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(codeforces common/a_there_are_two_types_of_burgers.cpp)
 #add_executable(codeforces common/a_i_love_username.cpp)
 #add_executable(codeforces common/a_maximum_in_table.cpp)
-add_executable(codeforces common/a_gennady_and_a_card_game.cpp)
+#add_executable(codeforces common/a_gennady_and_a_card_game.cpp)
 
 #add_executable(codeforces cf647/b.cpp)
 #add_executable(codeforces cf647/c.cpp)
@@ -364,7 +364,8 @@ add_executable(codeforces common/a_gennady_and_a_card_game.cpp)
 #add_executable(hacker_rank hacker_rank/maximum_palindromes.cpp)
 #add_executable(hacker_rank hacker_rank/roads_and_libraries.cpp)
 #add_executable(hacker_rank hacker_rank/journey_to_the_moon.cpp)
-#add_executable(hacker_rank hacker_rank/QHEAP1.cpp) todo
+#add_executable(hacker_rank hacker_rank/QHEAP1.cpp)
+add_executable(hacker_rank hacker_rank/QHEAP1_PQ.cpp)
 
 
 # leetcode
